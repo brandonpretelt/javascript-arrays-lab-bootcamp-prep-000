@@ -20,7 +20,7 @@ function destructivelyRemoveFirstKitten(name) {
 
 function appendKitten(name) {
   var addKitties = kittens; 
-  addKitties.push(name);
+  [...kittens, name];
   return addKitties;
 }
 

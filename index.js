@@ -27,3 +27,7 @@ function prependKitten(name) {
   var addKittyToFront = [name, ...kittens];
   return addKittyToFront;
 }
+
+function removeLastKitten() {
+  var byeByeLastKitty = 
+}
